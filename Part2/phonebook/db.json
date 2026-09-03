@@ -1,0 +1,30 @@
+{
+  "persons": [
+    {
+      "name": "Dan Abramov",
+      "number": "12-43-234345",
+      "id": "3"
+    },
+    {
+      "name": "Andy Huynh",
+      "number": "0977444445",
+      "id": "MIvEouscKjY"
+    },
+    {
+      "name": "Lily Huynh",
+      "number": "0999999999",
+      "id": "Re08V6GGRNc"
+    },
+    {
+      "name": "Hello Kitty",
+      "number": "12345678",
+      "id": "xi2zIvnGexI"
+    },
+    {
+      "name": "Andy Cole",
+      "number": "0999555666",
+      "id": "HCznrF6bg9w"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
