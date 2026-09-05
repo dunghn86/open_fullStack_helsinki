@@ -1,0 +1,19 @@
+{
+  "name": "blog_list",
+  "version": "1.0.0",
+  "description": "blog list",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch index.js",
+    "test": "node --test"
+  },
+  "author": "Andy Huynh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "lodash": "^4.18.1",
+    "mongoose": "^9.9.4"
+  }
+}
