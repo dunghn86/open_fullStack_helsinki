@@ -1,0 +1,21 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "phonebook part3 openfullstack",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js",
+    "server": "json-server --watch db.json 3001"
+  },
+  "dependencies": {
+    "axios": "^1.21.0",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "json-server": "^0.17.4",
+    "morgan": "^1.12.1"
+  }
+}

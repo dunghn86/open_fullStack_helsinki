@@ -1,0 +1,105 @@
+{
+  "persons": [
+    {
+      "id": "1",
+      "name": "Arto Hellas",
+      "number": "040-123456"
+    },
+    {
+      "id": "2",
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523"
+    },
+    {
+      "id": "3",
+      "name": "Dan Abramov",
+      "number": "12-43-234345"
+    },
+    {
+      "id": "4",
+      "name": "Mary Poppendieck",
+      "number": "39-23-6423122"
+    },
+    {
+      "id": "187",
+      "name": "Dan Abramov",
+      "number": "39-23-6423122"
+    },
+    {
+      "id": "986",
+      "name": "Andy Huynh",
+      "number": "39-23-6423122"
+    },
+    {
+      "id": "589",
+      "name": "Lily Huynh",
+      "number": "39-23-6423122"
+    },
+    {
+      "id": "20",
+      "name": "Sure Huynh",
+      "number": "39-23-6423122"
+    },
+    {
+      "id": "540",
+      "name": "wwqeq",
+      "number": "39-23-6423122"
+    },
+    {
+      "id": "274",
+      "name": "ewrew",
+      "number": "39-23-6423122"
+    },
+    {
+      "id": "760",
+      "name": "werewew",
+      "number": "39-23-6423122"
+    },
+    {
+      "id": "350",
+      "name": "fgerge",
+      "number": "39-23-6423122"
+    },
+    {
+      "id": "592",
+      "name": "aSDD",
+      "number": "39-23-6423122"
+    },
+    {
+      "id": "386",
+      "name": "DSFSDF",
+      "number": "39-23-6423122"
+    },
+    {
+      "id": "677",
+      "name": "ewqeqw",
+      "number": "39-23-6423122"
+    },
+    {
+      "id": "538",
+      "name": "ghfddf",
+      "number": "39-23-6423122"
+    },
+    {
+      "id": "488",
+      "name": "cvcvbvcb",
+      "number": "39-23-6423122"
+    },
+    {
+      "id": "183",
+      "name": "ghgfgfh",
+      "number": "39-23-6423122"
+    },
+    {
+      "name": "alibaba",
+      "number": "12312321323",
+      "id": "0"
+    },
+    {
+      "id": "638",
+      "name": "Doraemon",
+      "number": "8888888888"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
