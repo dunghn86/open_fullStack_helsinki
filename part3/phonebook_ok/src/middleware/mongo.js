@@ -1,11 +1,12 @@
 import mongoose, { Schema } from "mongoose";
+import { configDotenv } from "dotenv";
 
 if (process.argv.length < 3) {
   console.log("give password as argument");
   process.exit(1);
 }
 let password = process.argv[2];
-const URL_DB = `mongodb+srv://dunghn:${password}@dunghn.owafvqb.mongodb.net`;
+const URL_DB = process.URL_DB;
 mongoose.connect(URL_DB);
 const phonebookSchema = new mongoose.Schema({
   name: String,

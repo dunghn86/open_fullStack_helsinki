@@ -94,6 +94,11 @@
       "id": "638",
       "name": "Doraemon",
       "number": "8888888888"
+    },
+    {
+      "id": "44",
+      "name": "tommy",
+      "number": "456456456"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
