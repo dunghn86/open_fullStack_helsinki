@@ -1,6 +1,6 @@
 import mongoose, { Schema } from "mongoose";
-import { configDotenv } from "dotenv";
-
+import dotenv from "dotenv";
+dotenv.config();
 if (process.argv.length < 3) {
   console.log("give password as argument");
   process.exit(1);

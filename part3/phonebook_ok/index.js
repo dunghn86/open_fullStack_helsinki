@@ -2,7 +2,6 @@ import express from "express";
 import axios from "axios";
 import morgan from "morgan";
 import dotenv from "dotenv";
-import mongoose from "mongoose";
 import { openDB, closeDB, Phonebook } from "./src/config/db.js";
 
 dotenv.config();
@@ -110,7 +109,9 @@ app.post("/api/persons", async (req, res) => {
     };
     // const response = await axios.post(url, user);
     // res.json(response.data);
-    let newUser = await Phonebook.create(user).catch((error) => next(error));
+    let newUser = await Phonebook.create(user).catch((error) => {
+      return error;
+    });
     return res.status(201).json(newUser);
 
     // if (response.status === 201) console.log("Create successfull");
